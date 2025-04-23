@@ -34,11 +34,11 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Surfacee(color= Color.Cyan) {
+    Surface(color= Color.Cyan) {
         Text(
             text = "Hello $name!",
             modifier = modifier
-        );;
+        )
     }
 }
 
