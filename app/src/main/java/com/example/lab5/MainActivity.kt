@@ -34,9 +34,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Surfaceee(color= Color.Cyan) {
+    Surface(color= Color.Cyan) {
         Text(
-            text = "Hello $name!",
+            text = "Hello $name!!",
             modifier = modifier
         )
     }
